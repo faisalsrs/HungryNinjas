@@ -15,30 +15,46 @@ MVP (Minimum Viable Product):
 ## Login and Registration
 
 - [x] Users can view the homepage without being logged in.
-- [ ] If a user wants to change the quantity (add or remove), add item, review an item, or like an item present a message to request the user to create an account or login.
+- [x] If a user wants to change the quantity (add or remove), add item, review an item, or like an item present a message to request the user to create an account or login.
       Registration:
-- [ ] First Name: Validation 2 letters
-- [ ] Last Name: Validation 2 letters
-- [ ] Email : Valid Email Address
-- [ ] Password: atleast 8 characters
+- [x] First Name: Validation 2 letters
+- [x] Last Name: Validation 2 letters
+- [x] Email : Valid Email Address
+- [x] Password: atleast 8 characters
       Login:
-- [ ] Email: Valid Email Addres
-- [ ] Password:
+- [x] Email: Valid Email Addres
+- [x] Password:
 
 ## Home Page : Title: Hungry Ninjas
 
-- [ ] Section : In Stock :
-- [ ] In a card layout per item show all items in stock and show the current quantity # for the item.
-- [ ] If a user clicks on a item card, this will route to a single item page that will show the item a brief description, quantity, a plus to add quantity, a negative to reduce quantity.
-- [ ] A like button and display quantity of likes to show how popular the item is.
-- [ ] Add a link to return to the homepage and logout.
-- [ ] Display items by largest quantity and scroll through item cards.
-- [ ] If an item is out of stock ( 0 quantity) gray out the item card.  
+- [x] Section : In Stock :
+- [x] In a card layout per item show all items in stock and show the current quantity # for the item.
+- [x] If a user clicks on a item card, this will route to a single item page that will show the item a brief description, quantity, a plus to add quantity, a negative to reduce quantity.
+- [x] A like button and display quantity of likes to show how popular the item is.
+- [x] Add a link to return to the homepage and logout.
+- [x] Display items by largest quantity and scroll through item cards.
+- [x] If an item is out of stock ( 0 quantity) gray out the item card.  
        b) Section : Requested Items
-- [ ] Show all requested items and scroll through requested items.
+- [x] Show all requested items and scroll through requested items.
 
 ## Request Item Link on Homepage
 
-- [ ] Link to requested item
-- [ ] Item Name:
-- [ ] Image URL:
+- [x] Link to requested item
+- [x] Item Name:
+- [x] Image URL:
+
+## Database
+
+User
+
+- [x] User_ID
+- [x] FirstName
+- [x] LastName
+- [x] Email
+- [x] Password
+
+Items
+
+- [x] ItemName
+- [x] ItemQuantity
+- [x] Likes
