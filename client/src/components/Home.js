@@ -1,20 +1,25 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import NavBar from './NavBar';
+import { Row } from 'react-bootstrap';
 
 const Home = () => {
     return (
-        <Navbar className="p-4">
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mx-auto">
-                    <Nav.Link className="mx-3 my-auto" href="#">Inventory</Nav.Link>
-                    <Nav.Link className="mx-3 my-auto" href="#">Request New Item</Nav.Link>
-                    <h1 className="font-weight-bold mx-3">HungryNinjas</h1>
-                    <Nav.Link className="mx-3 my-auto" href="#">Sign In</Nav.Link>
-                    <Nav.Link className="mx-3 my-auto" href="#">Create an account.</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+        <>
+            <NavBar />
+            <div className="container-fluid">
+                <Row className="px-5 text-left">
+                    <h3 className="w-100 d-block mb-3">In Stock (0)</h3>
+                    <ul className="list-inline">
+                        <li className="list-inline-item box-item">
+                            <img src="wefe" alt="" />
+                            <h3>Catewewr</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur voluptatem ut voluptas veniam. Iste, reprehenderit!</p>
+                        </li>
+                    </ul>
+                </Row>
+            </div>
+        </>
     );
 }
 
-export default Home;
+export default Home;   
