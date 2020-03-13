@@ -54,3 +54,10 @@ Items
 - [x] ItemName
 - [x] ItemQuantity
 - [x] Likes
+
+Hosting/Deployment/Analytics
+
+- [x] Firebase Website
+- [x] Firebase Storage (Image Storage)
+- [x] Firebase Auth
+- [x] Firebase Store (JSON)
