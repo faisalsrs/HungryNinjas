@@ -32,6 +32,7 @@ MVP (Minimum Viable Product):
 - [x] Show all requested items and scroll through requested items.
 - [x] Show all items in descending order, showing most liked first.
 - [x] Create a carousel that slowly scrolls through requested items and stops when a user moves the mouse on an item.
+- [x] User who adds an item or request a new item can delete the item.  
 
 ## Request Item Link on Homepage
 
