@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+* {
+  font-family: 'Viga', sans-serif;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+td .content {
+  margin: 0px 16px;
+  width: 425px;
+  min-width: 350px;
+  max-width: 500px;
+}
+
+td img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
